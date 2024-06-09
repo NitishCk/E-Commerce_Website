@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="chekcout-container" id="blur">
+    <div class="checkoutLayout">
+        <div class="returnCart">
+            <button><a href="index.html">Keep Shopping</a></button>
+            <h1>Your Cart</h1>
+            <div class="list">
+
+                <div class="item">
+                    <img src="laptop_main.png">
+                    <div class="info">
+                        <div class="name">PRODUCT 1</div>
+                        <div class="price">$22/1 product</div>
+                    </div>
+                    <div class="quantity">5</div>
+                    <div class="returnPrice">$433.3</div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h1>Checkout</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Name</label>
+                    <input required type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+    
+                <div class="group">
+                    <label for="phone">Contact Info</label>
+                    <input required type="text" name="phone" id="phone" placeholder="Enter Your Mobile Number">
+                </div>
+    
+                <div class="group">
+                    <label for="address">Billing Address</label>
+                    <input required type="text" name="address" id="address" placeholder="Enter Your Address">
+                </div>
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>Total Quantity</div>
+                    <div class="totalQuantity">70</div>
+                </div>
+                <div class="row">
+                    <div>Total Price</div>
+                    <div class="totalPrice">$900</div>
+                </div>
+            </div>
+            <button class="buttonCheckout" class="showCart" onclick="openPopup();toggle()">CHECKOUT</button>
+            </div>
+    </div>
+</div>
+
+
+<div class="popup" id="popup">
+    <img src="check_icon.png" alt="">
+    <h2>Thank-You!</h2>
+    <p>Your Order Has Been Placed Successfully!</p>
+    <p>Please Do Visit Us Again ❤️</p>
+    <button type="button" class="closepopup" onclick="toggle();clearCart()"><a href="index.html">Shop More </a></button>
+</div>
+</body>
+
+<script src="checkoutpage.js"></script>
+</html>

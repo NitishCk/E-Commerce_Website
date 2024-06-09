@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" MacBook Air M2 (Midnight)",
+        "type":"Laptop",
+        "price": 1200,
+        "image": "macbook1.png",
+        "rating": "⭐️⭐️⭐️⭐️⭐️"
+    },
+    {
+        "id": 2,
+        "name":" MacBook Air M2 (Space Gray)",
+        "type":"Laptop",
+        "price": 1100,
+        "image": "macbook2.png",
+        "rating": "⭐️⭐️⭐️⭐️⭐️"
+    },
+    {
+        "id": 3,
+        "name":" iPhone 13 Pro Max (Gold)",
+        "type":"Mobile Phone",
+        "price": 1200,
+        "image": "iphonepro1.png",
+        "rating": "⭐️⭐️⭐️⭐️⭐️"
+    },
+    {
+        "id": 4,
+        "name":" Airpods Pro (Gen1)",
+        "type":"Airpods",
+        "price": 250,
+        "image": "airpods3.png",
+        "rating": "⭐️⭐️⭐️⭐️⭐️"
+    },
+    {
+        "id": 5,
+        "name":" iPhone 13 Pro Max (Black)",
+        "type":"Mobile Phone",
+        "price": 1000,
+        "image": "iphonepro2.png",
+        "rating": "⭐️⭐️⭐️⭐️"
+    },
+    {
+        "id": 6,
+        "name":" iPad Air Gen4 (RoseGold)",
+        "type":"Tablet",
+        "price": 500,
+        "image": "ipad1.png",
+        "rating": "⭐️⭐️⭐️⭐️"
+    }
+
+]

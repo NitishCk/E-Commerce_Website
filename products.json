@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "name":" MacBook Air M2 (Midnight)",
+        "type":"Laptop",
+        "price": 1200,
+        "image": "macbook1.png"
+    },
+    {
+        "id": 2,
+        "name":" MacBook Air M2 (Space Gray)",
+        "type":"Laptop",
+        "price": 1100,
+        "image": "macbook2.png"
+    },
+    {
+        "id": 3,
+        "name":" MacBook Air M2 (Silver)",
+        "type":"Laptop",
+        "price": 1000,
+        "image": "macbook3.png"
+    },
+    {
+        "id": 4,
+        "name":" iPhone 13 Pro Max (Gold)",
+        "type":"Mobile Phone",
+        "price": 1200,
+        "image": "iphonepro1.png"
+    },
+    {
+        "id": 5,
+        "name":" iPhone 13 Pro Max (Black)",
+        "type":"Mobile Phone",
+        "price": 1000,
+        "image": "iphonepro2.png"
+    },
+    {
+        "id": 6,
+        "name":" iPhone 13 Pro Max (Blue)",
+        "type":"Mobile Phone",
+        "price": 1100,
+        "image": "iphonepro3.png"
+    },
+    {
+        "id": 7,
+        "name":" iPhone 13 (Blue)",
+        "type":"Mobile Phone",
+        "price": 800,
+        "image": "iphone1.png"
+    },
+    {
+        "id": 8,
+        "name":" iPhone 13 (Peach)",
+        "type":"Mobile Phone",
+        "price": 800,
+        "image": "iphone2.png"
+    },
+    {
+        "id": 9,
+        "name":" iPhone 13 (Green)",
+        "type":"Mobile Phone",
+        "price": 800,
+        "image": "iphone3.png"
+    },
+    {
+        "id": 10,
+        "name":" iPad Air Gen4 (RoseGold)",
+        "type":"Tablet",
+        "price": 500,
+        "image": "ipad1.png"
+    },
+    {
+        "id": 11,
+        "name":" iPad Air Gen4 (Green)",
+        "type":"Tablet",
+        "price": 500,
+        "image": "ipad2.png"
+    },
+    {
+        "id": 12,
+        "name":" iPad Air Gen4 (Silver)",
+        "type":"Tablet",
+        "price": 550,
+        "image": "ipad3.png"
+    },
+    {
+        "id": 13,
+        "name":" Airpods (Gen2)",
+        "type":"Airpods",
+        "price": 100,
+        "image": "airpods1.png"
+    },
+    {
+        "id": 14,
+        "name":" Airpods (Gen3)",
+        "type":"Airpods",
+        "price": 150,
+        "image": "airpods2.png"
+    },
+    {
+        "id": 15,
+        "name":" Airpods Pro (Gen1)",
+        "type":"Airpods",
+        "price": 250,
+        "image": "airpods3.png"
+    }
+
+
+]

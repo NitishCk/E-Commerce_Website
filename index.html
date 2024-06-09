@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="cart.svg">
+    <title>myMART Ecommerce App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bodycontainer">
+
+
+    <!-- Nav Bar Container -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="navlogo">
+                <a><img src="logo.jpg" width="100px">myMART</a>
+            </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shop" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" id="headercart">Cart</a>
+                    </li>
+                </ul>
+                
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+<!-- Home Page Container -->
+    <div class="hcontainer" id="home">
+        <div class="home-container">
+            <div class="hbox hbox1">
+                <h3>50% Off on Your First Shopping<p>Please Do Visit Us Again For Exciting Offers</p></h3>
+
+            </div>
+            <div class="hbox hbox2">
+                <div class="slider">
+                    <div class="list">
+                        <div class="item">
+                            <img src="laptop_main.png">
+                        </div>
+                        <div class="item">
+                            <img src="phone_main.png">
+                        </div>
+                        <div class="item">
+                            <img src="airpods_main.png">
+                        </div>
+                        <div class="item">
+                            <img src="ipadmain.png">
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button id="prev" style="display: none";></button>
+                        <button id="next" style="display: none";></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+    <!-- Benifits Container -->
+    <div class="bcontainer">
+        <div class="benifits-container">
+            <div class="box box1">
+                <img src="shipping.png">
+                <h3>Free Shipping</h3>
+                <p>Unlimited Free Delivery For a Month</p>
+            </div>
+            <div class="box box2">
+                <img src="budget.png">
+                <h3>Budget Friendly</h3>
+                <p>Trendy Not Spendy</p>
+            </div>
+            <div class="box box3">
+                <img src="payment.png">
+                <h3>Smart Payments</h3>
+                <p>Simple and Secure</p>
+            </div>
+            <div class="box box4">
+                <img src="returns.png">
+                <h3>Easy Returns</h3>
+                <p>Back and Better Than Before</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Products container -->
+    <div class="showCart" id="shop">
+        <div class="pbucket">
+            <div class="container">
+                <div class="productheader">
+                    <div id="title">OUR PRODUCTS</div>
+                </div>
+                <div class="listProduct">
+                    <div class="item">
+                        <img src="laptop_main.png" class="image-item">
+                        <h2>NAME PRODUCT</h2>
+                        <div class="price">$550</div>
+                            <button class="addCart">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bestbucket">
+            <div class="bestselling-container">
+                <div class="productheader">
+                    <div id="title2"> BEST SELLING</div>
+                </div>
+                <div class="listProduct2">
+                    <div class="pitem">
+                        <img src="laptop_main.png" class="image-item">
+                        <h2>NAME PRODUCT</h2>
+                        <div class="price">$1000</div>
+                            <button class="addCart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="cart">
+    <h2>Shopping Cart</h2>
+    <div class="listCart">
+        <div class="item">
+            <img src="laptop_main.png">
+            <div class="content">
+                <div class="name">CoPilot / Black / Automatic</div>
+                <div class="price">$550 / 1 product</div>
+            </div>
+            <div class="quantity">
+                <span class="symbol"><</span>
+                <span class="value">3</span>
+                <span class="symbol">></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="close">CLOSE</div>
+        <div class="checkout"><a href="checkout.html">CHECKOUT</a></div>
+    </div>
+</div>
+
+
+
+    <!-- Reviews Container -->
+    <div class="review-header" id="testimonials">
+        <div class="review-container">
+            <div class="revleftcontainer">
+                <h1>Read What Customers Love About Us</h1>
+                <p>
+                    Over 1000+ people from diverse places reach out us to enhance their
+                    user experience of their products and services.
+                  </p>
+                  <p>
+                    We have helped people increase their customer base and generate
+                    multifold revenue with our Product service.
+                  </p>
+                  <button>Read our success stories</button>
+            </div>
+            <div class="revrightcontainer">
+                <div class="card">
+                    <img src="person1.png" alt="user" />
+                    <div class="card__content">
+                      <span><i class="ri-double-quotes-l"></i></span>
+                      <div class="card__details">
+                        <p>
+                          We had a great time collaboraring with the  team. They
+                          have my high recommendation!
+                        </p>
+                        <h4>- Peter Hicks</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="person2.png" alt="user" />
+                    <div class="card__content">
+                      <span><i class="ri-double-quotes-l"></i></span>
+                      <div class="card__details">
+                        <p>
+                            This has to be one of the best websites I have ever interacted with.
+                            Please do visit them again for the Amazing Products!
+                        </p>
+                        <h4>- Beck Kimberly</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="person3.jpg" alt="user" />
+                    <div class="card__content">
+                      <span><i class="ri-double-quotes-l"></i></span>
+                      <div class="card__details">
+                        <p>
+                            They are reliable, honest and operate with integrity. 
+                            I recommend them to anyone who is looking for some
+                            great products!
+                        </p>
+                        <h4>- Stacy Stone</h4>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Container -->
+    <footer>
+        <div class="fcontainer">
+            <div class="frow">
+                <div class="fcol">
+                    <div class="footerlogo">
+                        <img src="logo.jpg" width="80px" class="flogo">
+                        <h2 class="ftext">myMART</h2>
+                    </div>
+                    <p>Powering Your Lives by Bringing Tomorrow's Tech Today At Your Doorstep. 
+                        Shop Outside the Box and Curate Your Own Happiness. Free Smiles with Every Purchase.</p>
+                </div>
+                <div class="fcol">
+                    <h3>About Us <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Our Stores</li>
+                        <li>Our Cares</li>
+                        <li>Terms &amp; Conditions</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="fcol">
+                    <h3>Help Line <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li>Help Center </li>
+                        <li>How to Buy </li>
+                        <li>Track Your Order </li>
+                        <li>Corporate &amp; Bulk Purchasing </li>
+                        <li>Returns &amp; Refunds </li>
+                    </ul>
+
+                </div>
+                <div class="fcol">
+                    <h3>Contact Us <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li>70 Washington Square South, New York, NY 10012, United States </li>
+                        <li>Email: mymart@gmail.com</li>
+                        <li>Phone: +1 (111) 222 3333</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> Nitish ChittoorKrishnamurthy © 2022 - All Rights Reserved </p>
+    </footer>
+</div>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="index.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</html> 
+
+
